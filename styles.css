@@ -1,0 +1,15 @@
+body{
+	background-color: #e67e22;
+	overflow: hidden;
+}
+div.button{
+	width: 200px;
+	height: 200px;
+	background: #FFF;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	float: left;
+}
+div.button:nth-child(3n+0){
+	clear: right;
+}
