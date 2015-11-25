@@ -1,15 +1,52 @@
 body{
 	background-color: #e67e22;
-	overflow: hidden;
 }
+
+#wrapper {
+	width:960px;
+	margin:0 auto;
+	}
+	
+#blipp {
+	width:500px;
+	height:500px;
+	margin-left:230px;
+	margin-top:60px;
+	float:left;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background: #FFF;
+	cursor:pointer;
+	display:none;
+	}	
+	
+#blipp h1 {
+	text-align:center;
+	font-size:40px;
+	margin-top:230px;
+	}
+	
+.buttons {
+	padding:0 50px;
+	margin-top:40px;
+	display:none;
+
+	}
+
 div.button{
 	width: 200px;
 	height: 200px;
+	margin-right:100px;
+	margin-bottom:40px;
 	background: #FFF;
 	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+			border-radius: 50%;
 	float: left;
 }
+div.button:nth-child(3n+1){
+	clear: left;
+}
+
 div.button:nth-child(3n+0){
-	clear: right;
+	margin-right:0;
 }
